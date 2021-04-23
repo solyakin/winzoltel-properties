@@ -1,0 +1,32 @@
+<Swiper slidesPerView={1}>
+                <SwiperSlide>
+                    
+                </SwiperSlide>
+
+                {/* <SwiperSlide>
+                    <div className="item-2">
+                        <div className="img-fill">
+                            <div className="text-content">
+                                <p>Let's find you a home you would love</p>
+                                <h4>BUY.</h4>
+                                <h4>RENT.</h4>
+                                <h4>SALE</h4>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide>
+                    <div className="item-3">
+                        <div className="img-fill">
+                            <div className="text-content">
+                                <p>Let's find you a home you would love</p>
+                                <h4>BUY.</h4>
+                                <h4>RENT.</h4>
+                                <h4>SALE</h4>
+                            </div>
+                        </div>
+                    </div>
+                </SwiperSlide> */}
+            </Swiper>
+            

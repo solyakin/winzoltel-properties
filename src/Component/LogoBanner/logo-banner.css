@@ -1,0 +1,11 @@
+.logo-banner{
+    max-width: 100%;
+    background-color: #d3d3d3;
+    padding: 50px 0;
+}
+.logo-banner .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

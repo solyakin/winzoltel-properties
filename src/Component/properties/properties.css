@@ -1,0 +1,47 @@
+.properties{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/image2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    color: white;
+    padding: 100px 0;
+}
+.properties h2{
+    font-weight: normal;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.mobile{
+    display: none;
+}
+.properties img{
+    width: 350px;
+}
+.properties figcaption{
+    width: 100%;
+    background: #7c7c7c;
+    padding: 10px 20px;
+}
+.properties figcaption p, strong{
+    color: white;
+    font-size: 16px;
+}
+@media only screen and (max-width : 768px) {
+    .properties img{
+        width: 100%;
+    }
+    .properties .item-2{
+        /* width: 350px; */
+        margin-right: 10px;
+    }
+    .properties figcaption{
+        padding: 10px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: inherit;
+    }
+}
